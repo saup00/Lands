@@ -9,5 +9,12 @@
             set;
         }
         #endregion
+
+        #region Constructors
+        public MainViewModel()
+        {
+            this.Loggin = new LoginViewModel();
+        }
+        #endregion
     }
 }
